@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "com.DashEightMate.shutup.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "LoadingScreenMixin"
+  ],
+  "client": [
+    "ChatMessageMixin",
+    "ClientNetworkMixin"
+  ],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
